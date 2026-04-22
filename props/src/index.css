@@ -1,0 +1,29 @@
+html,
+body{
+  height: 100%;
+  width: 100%;
+}
+.parent{
+  text-align: center;
+  display: flex;
+}
+
+.cards{
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px;
+  background-color: papayawhip;
+  margin: 20px;
+}
+
+.cards p{
+  text-align: justify;
+}
+
+.cards img{
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+}
