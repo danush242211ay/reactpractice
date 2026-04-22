@@ -1,0 +1,10 @@
+body{
+  height: 100%;
+  width: 100%;
+}
+.nav{
+  background-color: pink;
+  margin: 20px;
+  padding: 20px;
+
+}
