@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="event.js" defer></script>
-    <style>
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <style>
         /* .card{
             height: 250px;
             width: 200px;
@@ -38,16 +40,14 @@
             box-sizing: border-box;
 
         }
-        body{
-            height: 100%;
-            width:100%;
-        }
+        
+        
         /* .mousee{
             height: 400px;
             width: 400px;
             background-color: red;
         } */
-    </style>
+    </style> -->
 </head>
 <body>
     <!-- <input placeholder="name" type="text"/>
@@ -68,5 +68,14 @@
     <div id="struct">
         
     </div> -->
+    <div class="flex flex-col gap-10 items-center">
+        <input class="px-5 py-5 rounded outline-none bg-[#111] text-[#888]"  type="text" placeholder="Search..."/>
+        
+        <div class="cards flex gap-10">
+
+        </div>
+        
+    </div>
+    <script src="practice.js"></script>
 </body>
 </html>
